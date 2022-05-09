@@ -81,14 +81,23 @@ a{
 .zonapreguntas{
   grid-area: z;
   margin: 20px 0;
-  /* border: solid 1px; */
   text-align: center;
 }
 
 .zonapreguntas button{
-  padding: 15px 800px;
+  /* padding: 15px 700px; */
+  padding: 15px 40%;
   margin: 10px 0;
   color: white;
+}
+
+.zonapreguntas button:hover{
+  transition: 200ms;
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 
 #btn1{
