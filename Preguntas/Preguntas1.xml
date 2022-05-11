@@ -12,157 +12,195 @@
 
 
 <test>
-    <question>¿Cuanto dura un partido de fútbol?</question>
+<question>
+    <wording>¿Cuanto dura un partido de fútbol?</wording>
     <choices>
         <choice correct='yes'>90 minutos repartidos en dos partes de 45 minutos cada una</choice>
         <choice correct='no'>Lo que dura un recreo</choice>
         <choice correct='no'>Una hora y cuarto</choice>
         <choice correct='no'>El que marque primero gana</choice>
     </choices>
+</question>
 
-    <question>¿Cuándo se celebró el primer mundial de fútbol?</question>
+<question>
+    <wording>¿Cuándo se celebró el primer mundial de fútbol?</wording>
     <choices>
         <choice correct='yes'>El 13 de Julio de 1930 en Uruguay</choice>
         <choice correct='no'>Ayer por la tarde</choice>
         <choice correct='no'>Cuando murió Cristo</choice>
         <choice correct='no'>Todavía no se ha celebrado</choice>
     </choices>
+</question>
 
-    <question>¿Qué selección de fútbol ha ganado más Mundiales?</question>
+<question>
+    <wording>¿Qué selección de fútbol ha ganado más Mundiales?</wording>
     <choices>
         <choice correct='yes'>Brasil, con 5 copas</choice>
         <choice correct='no'>España, con 15 copas</choice>
         <choice correct='no'>Joaquin del betis, con 30 copas</choice>
         <choice correct='no'>France, con 2 copas</choice>
     </choices>
+</question>
 
-    <question>¿Cuánto dura la prórroga en un partido de fútbol?</question>
+<question>
+    <wording>¿Cuánto dura la prórroga en un partido de fútbol?</wording>
     <choices>
         <choice correct='yes'>30 minutos repartidos en dos partes de 15 minutos cada una</choice>
         <choice correct='no'>Si el balón toca el suelo se acaba</choice>
         <choice correct='no'>Si se acaban los 24 segundos de posesión se acaba</choice>
         <choice correct='no'>Se acaba si se dan más de 100 pases</choice>
     </choices>
+</question>
 
-    <question>¿Cuántos jugadores tiene un equipo de fútbol en el campo de juego?</question>
+<question>
+    <wording>¿Cuántos jugadores tiene un equipo de fútbol en el campo de juego?</wording>
     <choices>
         <choice correct='yes'>11 jugadores</choice>
         <choice correct='no'>6 jugadores</choice>
         <choice correct='no'>2 entrenadores</choice>
         <choice correct='no'>20 jugadores</choice>
     </choices>
+</question>
 
-    <question>¿Quién ganó el mundial de fútbol en 2010?</question>
+<question>
+    <wording>¿Quién ganó el mundial de fútbol en 2010?</wording>
     <choices>
         <choice correct='yes'>La selección española</choice>
         <choice correct='no'>La selección francesa</choice>
         <choice correct='no'>El Atlético de Madrid</choice>
         <choice correct='no'>La selección de Ghana</choice>
     </choices>
+</question>
 
-    <question>¿Qué número llevaba a la espalda Raúl González del Real Madrid?</question>
+<question>
+    <wording>¿Qué número llevaba a la espalda Raúl González del Real Madrid?</wording>
     <choices>
         <choice correct='yes'>El número 7</choice>
         <choice correct='no'>El número 10</choice>
         <choice correct='no'>El número 1</choice>
         <choice correct='no'>El número 20</choice>
     </choices>
+</question>
 
-    <question>¿Qué equipos componen el derby sevillano?</question>
+<question>
+    <wording>¿Qué equipos componen el derby sevillano?</wording>
     <choices>
         <choice correct='yes'>Sevilla vs Betis</choice>
         <choice correct='no'>Sevilla vs Alameda</choice>
         <choice correct='no'>Betis vs Granada</choice>
         <choice correct='no'>Betis vs Tomares</choice>
     </choices>
+</question>
 
-    <question>¿En qué equipo italiano jugó Diego Armando Maradona?</question>
+<question>
+    <wording>¿En qué equipo italiano jugó Diego Armando Maradona?</wording>
     <choices>
         <choice correct='yes'>En el Nápoli</choice>
         <choice correct='no'>En la Juventus</choice>
         <choice correct='no'>En el Palermo</choice>
         <choice correct='no'>En el Palos de la Frontera</choice>
     </choices>
+</question>
 
-    <question>¿De qué ciudad es el Chelsea Football Club?</question>
+<question>
+    <wording>¿De qué ciudad es el Chelsea Football Club?</wording>
     <choices>
         <choice correct='yes'>De Fulham, Londres</choice>
         <choice correct='no'>De Albayzin, Granada</choice>
         <choice correct='no'>De United, Manchester</choice>
         <choice correct='no'>De Liverpool</choice>
     </choices>
+</question>
 
-    <question>¿De qué colores es la camiseta del Atlético de Madrid?</question>
+<question>
+    <wording>¿De qué colores es la camiseta del Atlético de Madrid?</wording>
     <choices>
         <choice correct='yes'>Rojo y blanco</choice>
         <choice correct='no'>Verde y blanco</choice>
         <choice correct='no'>Naranja y negro</choice>
         <choice correct='no'>Rosa y verde</choice>
     </choices>
+</question>
 
-    <question>¿Qué equipo de la Premier League tiene más ligas ganadas?</question>
+<question>
+    <wording>¿Qué equipo de la Premier League tiene más ligas ganadas?</wording>
     <choices>
         <choice correct='yes'>El Manchester United</choice>
         <choice correct='no'>El Everton</choice>
         <choice correct='no'>El San Roque de Lepe</choice>
         <choice correct='no'>El Totenham</choice>
     </choices>
+</question>
 
-    <question>¿Qué revista concede el Balón de Oro?</question>
+<question>
+    <wording>¿Qué revista concede el Balón de Oro?</wording>
     <choices>
         <choice correct='yes'>La revista France Football</choice>
         <choice correct='no'>La revista Hola!</choice>
         <choice correct='no'>El Mundo Deportivo</choice>
         <choice correct='no'>La revista Quore</choice>
     </choices>
+</question>
 
-    <question>¿Cómo se llama el estadio del Bayern de Munich?</question>
+<question>
+    <wording>¿Cómo se llama el estadio del Bayern de Munich?</wording>
     <choices>
         <choice correct='yes'>Allianz Arena</choice>
         <choice correct='no'>Spotify Camp Nou</choice>
         <choice correct='no'>Madrigal</choice>
         <choice correct='no'>Colombino</choice>
     </choices>
+</question>
 
-    <question>¿En qué año debutó Pep Guardiola como entrenador en el FC Barcelona?</question>
+<question>
+    <wording>¿En qué año debutó Pep Guardiola como entrenador en el FC Barcelona?</wording>
     <choices>
         <choice correct='yes'>2008</choice>
         <choice correct='no'>1997</choice>
         <choice correct='no'>2005</choice>
         <choice correct='no'>2020</choice>
     </choices>
+</question>
 
-    <question>¿Qué equipo ha ganado más Champions League de la historia?</question>
+<question>
+    <wording>¿Qué equipo ha ganado más Champions League de la historia?</wording>
     <choices>
         <choice correct='yes'>El Real Madrid</choice>
         <choice correct='no'>El Osasuna</choice>
         <choice correct='no'>El Barcelona</choice>
         <choice correct='no'>El Atlético de Tetuan</choice>
     </choices>
+</question>
 
-    <question>¿Quién es conodico como "O Rei"?</question>
+<question>
+    <wording>¿Quién es conodico como "O Rei"?</wording>
     <choices>
         <choice correct='yes'>Pelé</choice>
         <choice correct='no'>Joaquín</choice>
         <choice correct='no'>Messi</choice>
         <choice correct='no'>Cristiano Ronaldo</choice>
     </choices>
+</question>
 
-    <question>¿Qué equipo de fútbol juega en el estadio El Molinón?</question>
+<question>
+    <wording>¿Qué equipo de fútbol juega en el estadio El Molinón?</wording>
     <choices>
         <choice correct='yes'>El Real Sporting de Gijón</choice>
         <choice correct='no'>El Recreativo de Huelva</choice>
         <choice correct='no'>El Real Madrid</choice>
         <choice correct='no'>El Atletico de Bilbao</choice>
     </choices>
+</question>
 
-    <question>¿Qué entrenador argentino es conocido como "El Cholo"?</question>
+<question>
+    <wording>¿Qué entrenador argentino es conocido como "El Cholo"?</wording>
     <choices>
         <choice correct='yes'>Diego Simeone</choice>
         <choice correct='no'>Anchelotti</choice>
         <choice correct='no'>Pep Guardiola</choice>
         <choice correct='no'>Mourinho</choice>
     </choices>
+</question>
 </test>
 
 
