@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Titulo del juego</title>
+    <title>Pregunta2</title>
 </head>
 
 <body>
     <div class="contenido">
         <header>
-            <h1>Título</h1>
+            <h1>Pregunta2</h1>
         </header>
 
         <nav>
@@ -22,17 +22,17 @@
 
         <div class="zonapreguntas">
             <div>
-                <h1>Pregunta nº: xxxxx</h1>
+                <h1 id="numero">Pregunta nº: 0</h1>
             </div>
             <div>
                 <!-- <h3>¿Cual es el noseque del noseque nosecuanto?</h3> -->
-                <button onclick="cargaPregunta()">¡Cargar una pregunta!</button>
-                <h3 id="pregunta">La pregunta se va a cargar aquí</h3>
+                <!-- <button onclick="cargaPregunta()">¡Cargar una pregunta!</button> -->
+                <h3 id="pregunta">¡Haz click en una respuesta para empezar!</h3>
             </div>
-            <button id="btn1" onclick="siguiente()">Respuesta 1</button><br />
-            <button id="btn2" onclick="siguiente()">Respuesta 2</button><br />
-            <button id="btn3" onclick="siguiente()">Respuesta 3</button><br />
-            <button id="btn4" onclick="siguiente()">Respuesta 4</button><br />
+            <button id="btn1" onclick="cargaPregunta()">Respuesta 1</button><br />
+            <button id="btn2" onclick="cargaPregunta()">Respuesta 2</button><br />
+            <button id="btn3" onclick="cargaPregunta()">Respuesta 3</button><br />
+            <button id="btn4" onclick="cargaPregunta()">Respuesta 4</button><br />
         </div>
 
         <footer>Nedd Chairi Muñoz &copy; 2022</footer>
