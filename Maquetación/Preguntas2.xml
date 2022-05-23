@@ -1,210 +1,207 @@
- <!-- <?xml version='1.0'?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!ELEMENT test (question+)>
-<!ELEMENT question (wording,choices)>
-<!ELEMENT wording (#PCDATA)>
-<!ELEMENT choices (choice+)>
-<!ELEMENT choice (#PCDATA)>
- 
-<!ATTLIST question id CDATA #REQUIRED>
-<!ATTLIST choice correct (yes|no) “no”> -->
-
+<!-- <!DOCTYPE test [  
+    <!ELEMENT test (question+)>
+    <!ELEMENT question (wording,choices)>
+    <!ELEMENT wording (#PCDATA)>
+    <!ELEMENT choices (choice+)>
+    <!ELEMENT choice (#PCDATA)>
+    
+    <!ATTLIST question id CDATA #REQUIRED>
+    <!ATTLIST choice correct (yes|no) “no”>
+]> -->
 
 
 <test>
-
 <question>
-<wording>¿Quién protagoniza Pretty Woman?</wording>
-<choices>
-    <choice correct='yes'>Richard Gere</choice>
-    <choice correct='no'>Nicholas Cage</choice>
-    <choice correct='no'>Fernando Tejero</choice>
-    <choice correct='no'>Nick Nolte</choice>
-</choices>
+    <wording>¿Quién protagoniza Pretty Woman?</wording>
+    <choices>
+        <choice correct='yes'>Richard Gere</choice>
+        <choice correct='no'>Nicholas Cage</choice>
+        <choice correct='no'>Fernando Tejero</choice>
+        <choice correct='no'>Nick Nolte</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿Cuántos Oscars ganó Titanic?</wording>
-<choices>
-    <choice correct='yes'>11</choice>
-    <choice correct='no'>2</choice>
-    <choice correct='no'>244</choice>
-    <choice correct='no'>18.4</choice>
-</choices>
+    <wording>¿Cuántos Oscars ganó Titanic?</wording>
+    <choices>
+        <choice correct='yes'>11</choice>
+        <choice correct='no'>2</choice>
+        <choice correct='no'>244</choice>
+        <choice correct='no'>18.4</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿Quién dirigió El Gran Lebowski?</wording>
-<choices>
-    <choice correct='yes'>Hermanos Coen</choice>
-    <choice correct='no'>Hermanos Lumier</choice>
-    <choice correct='no'>Steven Spielberg</choice>
-    <choice correct='no'>George Lucas</choice>
-</choices>
+    <wording>¿Quién dirigió El Gran Lebowski?</wording>
+    <choices>
+        <choice correct='yes'>Hermanos Coen</choice>
+        <choice correct='no'>Hermanos Lumier</choice>
+        <choice correct='no'>Steven Spielberg</choice>
+        <choice correct='no'>George Lucas</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿Quién protagoniza El Paciente Inglés?</wording>
-<choices>
-    <choice correct='yes'>Juliette Binoche</choice>
-    <choice correct='no'>Susan Sarandon</choice>
-    <choice correct='no'>Susana Sarandonga</choice>
-    <choice correct='no'>Marco Italia</choice>
-</choices>
+    <wording>¿Quién protagoniza El Paciente Inglés?</wording>
+    <choices>
+        <choice correct='yes'>Juliette Binoche</choice>
+        <choice correct='no'>Susan Sarandon</choice>
+        <choice correct='no'>Susana Sarandonga</choice>
+        <choice correct='no'>Marco Italia</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿Cuántos jugadores tiene un equipo de fútbol en el campo de juego?</wording>
-<choices>
-    <choice correct='yes'>11 jugadores</choice>
-    <choice correct='no'>6 jugadores</choice>
-    <choice correct='no'>2 entrenadores</choice>
-    <choice correct='no'>20 jugadores</choice>
-</choices>
+    <wording>¿Quién dirigió La Fuente de la vida?</wording>
+    <choices>
+        <choice correct='yes'>Darren Aronofski</choice>
+        <choice correct='no'>Sean Penn</choice>
+        <choice correct='no'>Milos Forman</choice>
+        <choice correct='no'>Ricardo Milos</choice>
+    </choices>
+    </question>
+
+<question>
+    <wording>¿Quién dirigió La delgada línea roja?</wording>
+    <choices>
+        <choice correct='yes'>Terrence Malick</choice>
+        <choice correct='no'>John Ford</choice>
+        <choice correct='no'>Steven Spielberg</choice>
+        <choice correct='no'>El Hadri</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿Quién ganó el mundial de fútbol en 2010?</wording>
-<choices>
-    <choice correct='yes'>La selección española</choice>
-    <choice correct='no'>La selección francesa</choice>
-    <choice correct='no'>El Atlético de Madrid</choice>
-    <choice correct='no'>La selección de Ghana</choice>
-</choices>
+    <wording>¿Quién protagonizó La pasión?</wording>
+    <choices>
+        <choice correct='yes'>James Caviezel</choice>
+        <choice correct='no'>Adrien Brody</choice>
+        <choice correct='no'>Jared Leto</choice>
+        <choice correct='no'>Adrien Brodel</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿Qué número llevaba a la espalda Raúl González del Real Madrid?</wording>
-<choices>
-    <choice correct='yes'>El número 7</choice>
-    <choice correct='no'>El número 10</choice>
-    <choice correct='no'>El número 1</choice>
-    <choice correct='no'>El número 20</choice>
-</choices>
+    <wording>¿Cuantos Oscars consiguió West Side Story?</wording>
+    <choices>
+        <choice correct='yes'>10</choice>
+        <choice correct='no'>8</choice>
+        <choice correct='no'>7</choice>
+        <choice correct='no'>9</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿Qué equipos componen el derby sevillano?</wording>
-<choices>
-    <choice correct='yes'>Sevilla vs Betis</choice>
-    <choice correct='no'>Sevilla vs Alameda</choice>
-    <choice correct='no'>Betis vs Granada</choice>
-    <choice correct='no'>Betis vs Tomares</choice>
-</choices>
+    <wording>¿En qué año se estrenó Bailando con Lobos?</wording>
+    <choices>
+        <choice correct='yes'>1990</choice>
+        <choice correct='no'>1987</choice>
+        <choice correct='no'>1958</choice>
+        <choice correct='no'>Ayer</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿En qué equipo italiano jugó Diego Armando Maradona?</wording>
-<choices>
-    <choice correct='yes'>En el Nápoli</choice>
-    <choice correct='no'>En la Juventus</choice>
-    <choice correct='no'>En el Palermo</choice>
-    <choice correct='no'>En el Palos de la Frontera</choice>
-</choices>
+    <wording>¿Quién dirigió American Beauty?</wording>
+    <choices>
+        <choice correct='yes'>Sam Mendes</choice>
+        <choice correct='no'>Milos Forman</choice>
+        <choice correct='no'>Dennis Villeneuve</choice>
+        <choice correct='no'>Manuel Mariupol</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿De qué ciudad es el Chelsea Football Club?</wording>
-<choices>
-    <choice correct='yes'>De Fulham, Londres</choice>
-    <choice correct='no'>De Albayzin, Granada</choice>
-    <choice correct='no'>De United, Manchester</choice>
-    <choice correct='no'>De Liverpool</choice>
-</choices>
+    <wording>¿En qué año se estrenó Matrix?</wording>
+    <choices>
+        <choice correct='yes'>1999</choice>
+        <choice correct='no'>Mañana</choice>
+        <choice correct='no'>¿Cual de todas ellas?</choice>
+        <choice correct='no'>Obviamente estamos hablando de la primera</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿De qué colores es la camiseta del Atlético de Madrid?</wording>
-<choices>
-    <choice correct='yes'>Rojo y blanco</choice>
-    <choice correct='no'>Verde y blanco</choice>
-    <choice correct='no'>Naranja y negro</choice>
-    <choice correct='no'>Rosa y verde</choice>
-</choices>
+    <wording>¿Quién dirigió el Sexto Sentido?</wording>
+    <choices>
+        <choice correct='yes'>M. Night Shyamalan</choice>
+        <choice correct='no'>Alfred Hitchcock</choice>
+        <choice correct='no'>Darren Aronofski</choice>
+        <choice correct='no'>Mi tia Manuela</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿Qué equipo de la Premier League tiene más ligas ganadas?</wording>
-<choices>
-    <choice correct='yes'>El Manchester United</choice>
-    <choice correct='no'>El Everton</choice>
-    <choice correct='no'>El San Roque de Lepe</choice>
-    <choice correct='no'>El Totenham</choice>
-</choices>
+    <wording>¿Cuántos Oscars consiguió La Lista de Schindler?</wording>
+    <choices>
+        <choice correct='yes'>7</choice>
+        <choice correct='no'>5</choice>
+        <choice correct='no'>Ninguno</choice>
+        <choice correct='no'>Le quitaron uno</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿Qué revista concede el Balón de Oro?</wording>
-<choices>
-    <choice correct='yes'>La revista France Football</choice>
-    <choice correct='no'>La revista Hola!</choice>
-    <choice correct='no'>El Mundo Deportivo</choice>
-    <choice correct='no'>La revista Quore</choice>
-</choices>
+    <wording>¿Quién dirigió Tigre y Dragón?</wording>
+    <choices>
+        <choice correct='yes'>Ang Lee</choice>
+        <choice correct='no'>Tobe Hooper</choice>
+        <choice correct='no'>David Lynch</choice>
+        <choice correct='no'>Scarface Johansson</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿Cómo se llama el estadio del Bayern de Munich?</wording>
-<choices>
-    <choice correct='yes'>Allianz Arena</choice>
-    <choice correct='no'>Spotify Camp Nou</choice>
-    <choice correct='no'>Madrigal</choice>
-    <choice correct='no'>Colombino</choice>
-</choices>
+    <wording>¿Quién protagoniza Hereditary?</wording>
+    <choices>
+        <choice correct='yes'>Toni Collette</choice>
+        <choice correct='no'>Amy Adams</choice>
+        <choice correct='no'>Debra Winger</choice>
+        <choice correct='no'>Soto Sotanescu</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿En qué año debutó Pep Guardiola como entrenador en el FC Barcelona?</wording>
-<choices>
-    <choice correct='yes'>2008</choice>
-    <choice correct='no'>1997</choice>
-    <choice correct='no'>2005</choice>
-    <choice correct='no'>2020</choice>
-</choices>
+    <wording>¿Quién dirigió La Bruja?</wording>
+    <choices>
+        <choice correct='yes'>Robert Eggers</choice>
+        <choice correct='no'>Ari Aster</choice>
+        <choice correct='no'>Christopher Nolan</choice>
+        <choice correct='no'>Ricardioide</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿Qué equipo ha ganado más Champions League de la historia?</wording>
-<choices>
-    <choice correct='yes'>El Real Madrid</choice>
-    <choice correct='no'>El Osasuna</choice>
-    <choice correct='no'>El Barcelona</choice>
-    <choice correct='no'>El Atlético de Tetuan</choice>
-</choices>
+    <wording>¿Quién protagoniza Traffic?</wording>
+    <choices>
+        <choice correct='yes'>Michael Douglas</choice>
+        <choice correct='no'>Harrison Ford</choice>
+        <choice correct='no'>Sean Connery</choice>
+        <choice correct='no'>Mike Tyson</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿Quién es conodico como "O Rei"?</wording>
-<choices>
-    <choice correct='yes'>Pelé</choice>
-    <choice correct='no'>Joaquín</choice>
-    <choice correct='no'>Messi</choice>
-    <choice correct='no'>Cristiano Ronaldo</choice>
-</choices>
+    <wording>¿Cuantos Oscars consiguió Braveheart?</wording>
+    <choices>
+        <choice correct='yes'>5</choice>
+        <choice correct='no'>No lo se</choice>
+        <choice correct='no'>Un puñao</choice>
+        <choice correct='no'>El Madrid tiene más Champions</choice>
+    </choices>
 </question>
 
 <question>
-<wording>¿Qué equipo de fútbol juega en el estadio El Molinón?</wording>
-<choices>
-    <choice correct='yes'>El Real Sporting de Gijón</choice>
-    <choice correct='no'>El Recreativo de Huelva</choice>
-    <choice correct='no'>El Real Madrid</choice>
-    <choice correct='no'>El Atletico de Bilbao</choice>
-</choices>
-</question>
-
-<question>
-<wording>¿Qué entrenador argentino es conocido como "El Cholo"?</wording>
-<choices>
-    <choice correct='yes'>Diego Simeone</choice>
-    <choice correct='no'>Anchelotti</choice>
-    <choice correct='no'>Pep Guardiola</choice>
-    <choice correct='no'>Mourinho</choice>
-</choices>
-</question>
-
-<test>
+    <wording>¿En qué año se estrenó La guerra de las galaxias?</wording>
+    <choices>
+        <choice correct='yes'>1977</choice>
+        <choice correct='no'>1982</choice>
+        <choice correct='no'>1974</choice>
+        <choice correct='no'>Las de Disney, antes de ayer</choice>
+    </choices>
+    </question>
+</test>
 
 
-
-<!-- https://www.mundodeportivo.com/uncomo/ocio/articulo/120-preguntas-de-deportes-50646.html -->
