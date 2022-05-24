@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- <!DOCTYPE test [  
+<!DOCTYPE test [  
     <!ELEMENT test (question+)>
     <!ELEMENT question (wording,choices)>
     <!ELEMENT wording (#PCDATA)>
@@ -8,12 +8,12 @@
     <!ELEMENT choice (#PCDATA)>
     
     <!ATTLIST question id CDATA #REQUIRED>
-    <!ATTLIST choice correct (yes|no) “no”>
-]> -->
+    <!ATTLIST choice correct (yes|no) "no">
+]>
 
 
 <test>
-<question>
+<question id='Pregunta 1'>
     <wording>¿Quién protagoniza Pretty Woman?</wording>
     <choices>
         <choice correct='yes'>Richard Gere</choice>
@@ -23,7 +23,7 @@
     </choices>
 </question>
 
-<question>
+<question id='Pregunta 2'>
     <wording>¿Cuántos Oscars ganó Titanic?</wording>
     <choices>
         <choice correct='yes'>11</choice>
@@ -33,7 +33,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 3">
     <wording>¿Quién dirigió El Gran Lebowski?</wording>
     <choices>
         <choice correct='yes'>Hermanos Coen</choice>
@@ -43,7 +43,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 4">
     <wording>¿Quién protagoniza El Paciente Inglés?</wording>
     <choices>
         <choice correct='yes'>Juliette Binoche</choice>
@@ -53,7 +53,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 5">
     <wording>¿Quién dirigió La Fuente de la vida?</wording>
     <choices>
         <choice correct='yes'>Darren Aronofski</choice>
@@ -63,7 +63,7 @@
     </choices>
     </question>
 
-<question>
+<question id="Pregunta 6">
     <wording>¿Quién dirigió La delgada línea roja?</wording>
     <choices>
         <choice correct='yes'>Terrence Malick</choice>
@@ -73,7 +73,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 7">
     <wording>¿Quién protagonizó La pasión?</wording>
     <choices>
         <choice correct='yes'>James Caviezel</choice>
@@ -83,7 +83,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 8">
     <wording>¿Cuantos Oscars consiguió West Side Story?</wording>
     <choices>
         <choice correct='yes'>10</choice>
@@ -93,7 +93,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 9">
     <wording>¿En qué año se estrenó Bailando con Lobos?</wording>
     <choices>
         <choice correct='yes'>1990</choice>
@@ -103,7 +103,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 10">
     <wording>¿Quién dirigió American Beauty?</wording>
     <choices>
         <choice correct='yes'>Sam Mendes</choice>
@@ -113,7 +113,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 11">
     <wording>¿En qué año se estrenó Matrix?</wording>
     <choices>
         <choice correct='yes'>1999</choice>
@@ -123,7 +123,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 12">
     <wording>¿Quién dirigió el Sexto Sentido?</wording>
     <choices>
         <choice correct='yes'>M. Night Shyamalan</choice>
@@ -133,7 +133,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 13">
     <wording>¿Cuántos Oscars consiguió La Lista de Schindler?</wording>
     <choices>
         <choice correct='yes'>7</choice>
@@ -143,7 +143,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 14">
     <wording>¿Quién dirigió Tigre y Dragón?</wording>
     <choices>
         <choice correct='yes'>Ang Lee</choice>
@@ -153,7 +153,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 15">
     <wording>¿Quién protagoniza Hereditary?</wording>
     <choices>
         <choice correct='yes'>Toni Collette</choice>
@@ -163,7 +163,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 16">
     <wording>¿Quién dirigió La Bruja?</wording>
     <choices>
         <choice correct='yes'>Robert Eggers</choice>
@@ -173,7 +173,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 17">
     <wording>¿Quién protagoniza Traffic?</wording>
     <choices>
         <choice correct='yes'>Michael Douglas</choice>
@@ -183,7 +183,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 18">
     <wording>¿Cuantos Oscars consiguió Braveheart?</wording>
     <choices>
         <choice correct='yes'>5</choice>
@@ -193,7 +193,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 19">
     <wording>¿En qué año se estrenó La guerra de las galaxias?</wording>
     <choices>
         <choice correct='yes'>1977</choice>
@@ -202,6 +202,18 @@
         <choice correct='no'>Las de Disney, antes de ayer</choice>
     </choices>
     </question>
+
+<question id="Pregunta 20">
+    <wording>¿Quien dirigió malviviendo?</wording>
+    <choices>
+        <choice correct='yes'>David Sainz</choice>
+        <choice correct='no'>Carlos Sainz</choice>
+        <choice correct='no'>Alejando Sanz</choice>
+        <choice correct='no'>Paco Sanz</choice>
+    </choices>
+    </question>
+
+
 </test>
 
 

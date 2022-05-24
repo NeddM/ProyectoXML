@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- <!DOCTYPE test [  
+<!DOCTYPE test [  
     <!ELEMENT test (question+)>
     <!ELEMENT question (wording,choices)>
     <!ELEMENT wording (#PCDATA)>
@@ -8,12 +8,12 @@
     <!ELEMENT choice (#PCDATA)>
     
     <!ATTLIST question id CDATA #REQUIRED>
-    <!ATTLIST choice correct (yes|no) “no”>
-]> -->
+    <!ATTLIST choice correct (yes|no) "no">
+]>
 
 
 <test>
-<question>
+<question id="Pregunta 1">
     <wording>¿Cuanto dura un partido de fútbol?</wording>
     <choices>
         <choice correct='yes'>90 minutos repartidos en dos partes de 45 minutos cada una</choice>
@@ -23,7 +23,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 2">
     <wording>¿Cuándo se celebró el primer mundial de fútbol?</wording>
     <choices>
         <choice correct='yes'>El 13 de Julio de 1930 en Uruguay</choice>
@@ -33,7 +33,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 3">
     <wording>¿Qué selección de fútbol ha ganado más Mundiales?</wording>
     <choices>
         <choice correct='yes'>Brasil, con 5 copas</choice>
@@ -43,7 +43,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 4">
     <wording>¿Cuánto dura la prórroga en un partido de fútbol?</wording>
     <choices>
         <choice correct='yes'>30 minutos repartidos en dos partes de 15 minutos cada una</choice>
@@ -53,7 +53,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 5">
     <wording>¿Cuántos jugadores tiene un equipo de fútbol en el campo de juego?</wording>
     <choices>
         <choice correct='yes'>11 jugadores</choice>
@@ -63,7 +63,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 6">
     <wording>¿Quién ganó el mundial de fútbol en 2010?</wording>
     <choices>
         <choice correct='yes'>La selección española</choice>
@@ -73,7 +73,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 7">
     <wording>¿Qué número llevaba a la espalda Raúl González del Real Madrid?</wording>
     <choices>
         <choice correct='yes'>El número 7</choice>
@@ -83,7 +83,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 8">
     <wording>¿Qué equipos componen el derby sevillano?</wording>
     <choices>
         <choice correct='yes'>Sevilla vs Betis</choice>
@@ -93,7 +93,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 9">
     <wording>¿En qué equipo italiano jugó Diego Armando Maradona?</wording>
     <choices>
         <choice correct='yes'>En el Nápoli</choice>
@@ -103,7 +103,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 10">
     <wording>¿De qué ciudad es el Chelsea Football Club?</wording>
     <choices>
         <choice correct='yes'>De Fulham, Londres</choice>
@@ -113,7 +113,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 11">
     <wording>¿De qué colores es la camiseta del Atlético de Madrid?</wording>
     <choices>
         <choice correct='yes'>Rojo y blanco</choice>
@@ -123,7 +123,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 12">
     <wording>¿Qué equipo de la Premier League tiene más ligas ganadas?</wording>
     <choices>
         <choice correct='yes'>El Manchester United</choice>
@@ -133,7 +133,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 13">
     <wording>¿Qué revista concede el Balón de Oro?</wording>
     <choices>
         <choice correct='yes'>La revista France Football</choice>
@@ -143,7 +143,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 14">
     <wording>¿Cómo se llama el estadio del Bayern de Munich?</wording>
     <choices>
         <choice correct='yes'>Allianz Arena</choice>
@@ -153,7 +153,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 15">
     <wording>¿En qué año debutó Pep Guardiola como entrenador en el FC Barcelona?</wording>
     <choices>
         <choice correct='yes'>2008</choice>
@@ -163,7 +163,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 16">
     <wording>¿Qué equipo ha ganado más Champions League de la historia?</wording>
     <choices>
         <choice correct='yes'>El Real Madrid</choice>
@@ -173,7 +173,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 17">
     <wording>¿Quién es conodico como "O Rei"?</wording>
     <choices>
         <choice correct='yes'>Pelé</choice>
@@ -183,7 +183,7 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 18">
     <wording>¿Qué equipo de fútbol juega en el estadio El Molinón?</wording>
     <choices>
         <choice correct='yes'>El Real Sporting de Gijón</choice>
@@ -193,13 +193,23 @@
     </choices>
 </question>
 
-<question>
+<question id="Pregunta 19">
     <wording>¿Qué entrenador argentino es conocido como "El Cholo"?</wording>
     <choices>
         <choice correct='yes'>Diego Simeone</choice>
         <choice correct='no'>Anchelotti</choice>
         <choice correct='no'>Pep Guardiola</choice>
         <choice correct='no'>Mourinho</choice>
+    </choices>
+</question>
+
+<question id="Pregunta 20">
+    <wording>¿Quién es el mejor jugador de la clase de ASIR?</wording>
+    <choices>
+        <choice correct='yes'>Ignacio</choice>
+        <choice correct='no'>Nedd</choice>
+        <choice correct='no'>Hadrian</choice>
+        <choice correct='no'>Eduardo</choice>
     </choices>
 </question>
 </test>
