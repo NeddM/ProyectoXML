@@ -1,23 +1,21 @@
-// document.getElementsByTagName('question')[0].getElementsByTagName('wording')[0].childNodes[0].nodeValue
-
-// r1 = document.getElementsByTagName('question')[0].getElementsByTagName('choices')[0].childNodes[1].attributes[0]
-
+// Contadores
 let i = 0;
-let o = 0;
+let o = 1;
 
+// Carga las preguntas mediante AJAX
 function cargaPregunta2() {
   var http = new XMLHttpRequest();
   http.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       myFunction2(this, i);
       i++;
-      console.log(i);
     }
   };
   http.open("GET", "Preguntas2.xml", true);
   http.send();
 }
 
+// Carga las preguntas y los contadores
 function cargaPreguntar2() {
   var http = new XMLHttpRequest();
   http.onreadystatechange = function () {
@@ -25,13 +23,13 @@ function cargaPreguntar2() {
       myFunction2(this, i);
       i++;
       o++;
-      console.log(i);
     }
   };
   http.open("GET", "Preguntas2.xml", true);
   http.send();
 }
 
+// Zona de preguntas
 function myFunction2(xml, i) {
   var xmlDoc = xml.responseXML;
   var y = xmlDoc.getElementsByTagName("question");
@@ -50,8 +48,8 @@ function myFunction2(xml, i) {
     y[i].getElementsByTagName("choices")[0].childNodes[7].childNodes[0]
       .nodeValue;
 
-  res = document.getElementById('numero').innerHTML = 'Pregunta nº: ' + (i + 1)
-  punt = document.getElementById('puntuacion').innerHTML = 'Puntuación: ' + o
+  res = document.getElementById("numero").innerHTML = "Pregunta nº: " + (i + 1);
+  punt = document.getElementById("puntuacion").innerHTML = "Puntuación: " + o;
 
   document.getElementById("pregunta").innerHTML = qq;
   document.getElementById("btn1").innerHTML = rr1;
@@ -60,3 +58,18 @@ function myFunction2(xml, i) {
   document.getElementById("btn4").innerHTML = rr4;
 }
 
+// Tiempo
+window.onload = updateClock;
+var totalTime = 60;
+function updateClock() {
+  document.getElementById("tiempo").innerHTML = totalTime;
+  if (totalTime == 0) {
+    alert("Has perdido");
+  } else {
+    totalTime -= 1;
+    setTimeout("updateClock()", 1000);
+  }
+}
+function reinicio() {
+  location.reload();
+}
